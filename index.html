@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/017134ba4f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Chiropractor Website</title>
+</head>
+<body>
+  <div class="homepage">
+    <div class="logo-container">
+      <img src="img/logo.png" width="250px">
+    </div>
+    <div class="menu-container">
+      <a href="#">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Services</a>
+      <a href="contact.html">Patients</a>
+      <a href="contact.html">Pages</a>
+      <a href="contact.html">Blog</a>
+      <a href="contact.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <nav class="hamburger">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+      </span>
+    </nav>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()"><i class="fas fa-times"></i></a>
+      <a href="#">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Services</a>
+      <a href="contact.html">Patients</a>
+      <a href="contact.html">Pages</a>
+      <a href="contact.html">Blog</a>
+      <a href="contact.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div> <!-- Homepage Section -->
+  <script>
+    function openSlideMenu() {
+      document.getElementById('mobile-nav').style.display = 'flex';
+    }
+
+    function closeSlideMenu() {
+      document.getElementById('mobile-nav').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
