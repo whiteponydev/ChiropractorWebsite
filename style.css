@@ -112,10 +112,13 @@
 .header {
   width: 100vw;
   height: 55vh;
+  background-color: #dff6f0;
+  /*
   background-image: url('img/header.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,7 +126,7 @@
 }
 
 .cta {
-  background-color: rgba(38,64,177,0.7);
+  background-color: #4d80e4;
   display: flex;
   flex-direction: column;
   align-items: center;
