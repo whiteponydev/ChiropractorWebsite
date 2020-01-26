@@ -7,7 +7,7 @@
   font-family: 'Alegreya', serif;
 }
 
-/* HEADER STYLES */
+/* HOMEPAGE STYLES */
 
 .homepage {
   height: 100vh;
@@ -105,4 +105,53 @@
   .mobile-nav {
     display: none;
   }
+}
+
+/* HEADER IMAGE STYLES */
+
+.header {
+  width: 100vw;
+  height: 55vh;
+  background-image: url('img/header.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  background-color: rgba(38,64,177,0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.header a {
+  background-color: #2640B1;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.header a:hover {
+  background-color: #22399f;
 }
